@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirius35</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="margin: 0%;">
+    <header id="title">Chem Calculator</header>
+
+    <div id="topSection">
+        <div class="addRemoveParent">
+            <button onclick="addFract()" id="addBoxButton">ADD</button>
+            <button onclick="RemoveFract()" id="removeBoxButton">REMOVE</button>
+        </div>
+
+        <p style="border-width:3px; border-style:solid; border-color:black" id="shortAns"> </p>
+
+        <div class="fraction" id="TRfraction">
+            <input type="text" class="entrybox" id="num1">
+        </div>
+
+        <div id="buttonGroup">
+            <button class="signButton" onclick="chosen('plus')" id="plus" disabled>➕</button>
+            <button class="signButton" onclick="chosen('minus')" id="minus">➖</button>
+            <button class="signButton" onclick="chosen('multiply')" id="multiply">✖️</button>
+            <button class="signButton" onclick="chosen('divide')" id="divide">➗</button>
+        </div>
+
+        <div class="fraction" id="TRfraction2">
+            <input type="text" class="entrybox" id="num2">
+
+        </div>
+
+        <p id="equal1">🟰</p>
+        <p style="border-width:3px; border-style:solid; border-color:black" id="answer1"></p>
+
+    </div>
+
+    <div id="midSection">
+
+        <div class="fraction" id="midFraction1" style="visibility: visible;">
+            <input type="text" class="entrybox" id="numerator1">
+            <div class="blackRect"></div>
+            <input type="text" class="entrybox" id="denominator1">
+        </div>
+
+        <p class="multSymbol" id="midMult1" style="visibility: visible;">X</p>
+
+        <div class="fraction" id="midFraction2" style="visibility: visible;">
+            <input type="text" class="entrybox" id="numerator2">
+            <div class="blackRect"></div>
+            <input type="text" class="entrybox" id="denominator2">
+        </div>
+
+        <p class="multSymbol" id="midMult2" style="visibility: visible;">X</p>
+
+        <div class="fraction" id="midFraction3" style="visibility: visible;">
+            <input type="text" class="entrybox" id="numerator3">
+            <div class="blackRect"></div>
+            <input type="text" class="entrybox" id="denominator3">
+        </div>
+
+        <p class="multSymbol" id="midMult3" style="visibility: hidden;">X</p>
+         
+        <div class="fraction" id="midFraction4" style="visibility: hidden;">
+            <input type="text" class="entrybox" id="numerator4">
+            <div class="blackRect"></div>
+            <input type="text" class="entrybox" id="denominator4">
+        </div>
+
+        <p class="multSymbol" id="midMult4" style="visibility: hidden;">X</p>
+
+        <div class="fraction" id="midFraction5" style="visibility: hidden;">
+            <input type="text" class="entrybox" id="numerator5">
+            <div class="blackRect"></div>
+            <input type="text" class="entrybox" id="denominator5">
+        </div>
+
+    </div>
+    <!-- <p class="multSymbol" id="midMult3">X</p> -->
+
+    <div id="bottomSection"> 
+        <p style="border-width:3px; border-style:solid; border-color:black" id="ansList"></p>
+
+        <p style="border-width:3px; border-style:solid; border-color:black" id="finalAns">4.314532</p>
+    </div>
+
+    <script src="butts.js"></script>
+    <script type="module" src="backend.js" defer></script>
+
+</body > 
+
+
+</html>
