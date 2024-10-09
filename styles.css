@@ -1,0 +1,125 @@
+/* Removes scrolling part of the body */
+html, body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font: bold;
+}
+
+
+
+/* classes */
+.signButton{
+    width: 50px;
+    height: 50px;
+    margin: 3;
+    font-size: 21px;
+}
+.blackRect{
+    background-color: black;
+    width: 160px;
+    height: 10px;
+}
+.addRemoveParent{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.fraction{
+    position: relative;
+    width: 175px;
+    height: 150px;
+}
+.entrybox{
+    width: 140px;
+    font-size: 25px;
+    margin: 10;
+}
+.multSymbol{
+    position: relative;
+    width: 50px;
+    font-size: 40px;
+}
+/* End of classes */
+
+
+
+#topSection{
+    position: relative;
+    display: flex;
+    width: 1400px;
+    height: 200px;
+}
+#addBoxButton{
+    color: green;
+    font-size: 25px;
+}
+#removeBoxButton{
+    color: red;
+    font-size: 25px;
+}
+#shortAns{
+    width: 200px;
+    height: 110px;
+}
+#TRfraction{
+    top: 50px;
+
+}
+#buttonGroup{
+    position: relative;
+    top: 25px;
+    width: 130px;
+    height: 100px;
+}
+#TRfraction2{
+    top: 50px;
+}
+#equal1{
+    position: relative;
+    width: 50px;
+    font-size: 30px;
+    top: 25px;
+}
+#answer1{
+    position: relative;
+    width: 400px;
+    font-size: 40px;
+    top: 15px;
+    height: 50px;
+}
+
+
+
+#midSection{
+    position: relative;
+    display: flex;
+    /* top: -550px; */
+    width: 1000px;
+    height: 150px;
+}
+
+
+
+#bottomSection{
+    position: relative;
+    display: flex;
+
+}
+#ansList{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+#finalAns{
+    font-size: 50px;
+    height: 60px;
+    width: 500px;
+    margin-left: 50px;
+}
